@@ -1,0 +1,25 @@
+{
+  "name": "dgilbrea92.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm run build:cp-public",
+    "build:cp-public": "cp ./public/** ./dist",
+    "type": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgilbrea92/dgilbrea92.github.io.git"
+  },
+  "author": "Dakota Sheets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgilbrea92/dgilbrea92.github.io/issues"
+  },
+  "homepage": "https://github.com/dgilbrea92/dgilbrea92.github.io#readme",
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.4"
+  }
+}

@@ -8,5 +8,5 @@ function init() {
     const homeView = makeHomeView();
     renderView(homeView);
 }
-export default init();
+init();
 //# sourceMappingURL=index.js.map

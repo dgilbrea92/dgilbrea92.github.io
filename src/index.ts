@@ -11,4 +11,4 @@ function init() {
     renderView(homeView)
 }
 
-export default init()
+init()

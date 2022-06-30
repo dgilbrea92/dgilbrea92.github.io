@@ -4,11 +4,11 @@
       "checkJs": true,
       "outDir": "docs",
       "sourceMap": true,
-      "target": "ES6",
+      "target": "ES5",
       "noImplicitAny": true,
       "noImplicitReturns": true,
       "strict": true,
-      "module": "CommonJS",
       "moduleResolution": "node"
-    }
+    },
+    "include": ["src/**/*"]
 }

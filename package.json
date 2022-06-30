@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "run-s build:clean type webpack",
+    "build": "run-s build:clean lint type webpack",
     "build:clean": "rimraf ./docs",
+    "lint": "eslint ./src",
     "type": "tsc --noEmit",
     "webpack": "webpack",
     "start": "webpack serve --open"
@@ -31,6 +32,7 @@
     "eslint": "^8.18.0",
     "html-webpack-plugin": "^5.5.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
     "tsc": "^2.0.4",
     "typescript": "^4.7.4",
     "webpack": "^5.73.0",

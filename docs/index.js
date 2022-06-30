@@ -1,8 +1,9 @@
-"use strict";
-function helloWorld() {
-    const element = document.getElementById('hello-world');
-    if (element)
-        element.textContent = 'Hello, World!';
+import { makeHomeView } from "./views/home.view.js";
+import { renderView } from "./views/view.utils.js";
+function init() {
+    const navSection = document.getElementById("section-nav");
+    const homeView = makeHomeView();
+    renderView(homeView);
 }
-helloWorld();
+init();
 //# sourceMappingURL=index.js.map

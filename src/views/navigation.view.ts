@@ -1,6 +1,6 @@
-import { makeHomeView } from "./home.view.js"
-import { makePortfolioView } from "./portfolio.view.js"
-import { renderView } from "./view.utils.js"
+import { makeHomeView } from "./home.view"
+import { makePortfolioView } from "./portfolio.view"
+import { renderView } from "./view.utils"
 
 type NavItem = [label: string, viewFn: Function]
 

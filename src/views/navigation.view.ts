@@ -22,7 +22,7 @@ function makeNavLink(label: string, viewFn: Function) {
   
     link.textContent = label
     link.addEventListener("click", handleNavClick(viewFn))
-    link.setAttribute("style", "padding: 2px; text-decoration: underline")
+    link.setAttribute("style", "padding: 2px; text-decoration: underline; cursor: pointer")
   
     return link
 }
